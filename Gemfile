@@ -36,7 +36,6 @@ gem 'bcrypt',                  '3.1.7'
 #gem 'mini_magick',             '3.8.0'
 #gem 'will_paginate',           '3.0.7'
 #gem 'bootstrap-will_paginate', '0.0.10'
-gem 'bootstrap-sass',          '3.2.0.0'
 gem 'autoprefixer-rails'
 
 # Use jquery as the JavaScript library

@@ -4,9 +4,9 @@ class CreateActivities < ActiveRecord::Migration
       t.string :activity_type
       t.references :user, index: true, foreign_key: true
       t.integer :target_id
-      t.integer :course_id
-      t.integer :subject_id
-      t.integer :task_id
+      t.references :course, index: true, foreign_key: true
+      t.references :subject, index: true, foreign_key: true
+      t.references :task, index: true, foreign_key: true
       t.string :action_message
 
       t.timestamps null: false
